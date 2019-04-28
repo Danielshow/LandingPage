@@ -36,6 +36,9 @@ html, body {
         .container #header nav ul li {
           display: inline-block;
           padding: 0px 50px 0px 50px; }
+          .container #header nav ul li a{
+            text-decoration: none;
+            color: white;}                   
   .container .hero {
     display: flex;
     width: 100%; }
@@ -47,3 +50,25 @@ html, body {
       margin-top: 20%;
       width: 40%;
       text-align: center; }
+  .container .service{
+    background-color: white;
+    padding-top: 5px;}
+    .container .service_header{
+      text-align: center;
+      color: grey;
+      margin-bottom: 100px;
+      margin-top: 100px;}
+    .container .service_body{
+      display: flex;
+      width: 100%;}
+      .container .img_container{
+        width:35%;
+        text-align: center;
+        font-size: 30px;}
+        .img_container img{
+          height: 60%;}
+          
+        
+      
+      
+    
