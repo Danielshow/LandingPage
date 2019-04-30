@@ -1,53 +1,70 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-   <meta charset="utf-8">
-   <title>Landing Page</title>
-   <link rel="stylesheet" href="./style.css">       
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  
+
   <body>
-    <div class="container">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div>
       <header id="header">
-        <img src="img/path.svg" id="header-img" alt="logo"> 
+        <img id="header-img" src="https://www.honestdocs.id/assets/apple-touch-icon-ace91eaaed10959a4f9e767bc08b35612364fda2116790cf3972c68646ff3b9d.png" alt="Logo">
         <nav id="nav-bar">
           <ul>
-            <li class="nav-link"><a href="#service">Home</a></li>
-            <li class="nav-link">About</li>
-            <li class="nav-link">Contact</li>
+            <li><a class="nav-link" href="#about">Home</a></li>
+            <li><a class="nav-link" href="#service">Contact</a></li>
+            <li><a class="nav-link" href="#contact">About</a></li>
           </ul>
         </nav>
       </header>
-      <main>
-        <div class="hero">
-          <div class="hero--text">
-            <h1>Helping you create, manage and protect your wealth.</h1>
-          </div>
-          <div class="hero--image">
-            <img src="img/landing.svg" alt="Landing" class="hero--pop"> 
-          </div>
-        </div>
 
-        <div class="service">
-          <h1 class="service_header" id="service">SERVICE WE PROVIDE</h1>
-          <div class="service_body">
-              <div class="img_container">
-                  <img src="img/check.svg"  alt="check">
-                  <p>Equity shares</p>
-              </div>
-              <div class="img_container">
-                  <img src="img/customer.svg"  alt="customer">
-                  <p>Tax planning</p>
-              </div>
-              <div class="img_container">
-                   <img src="img/trucking.svg" alt="trucking">
-                   <p>Mutual funds</p>
-              </div>
+      <div id="sections">
+          <div id="about">
+            <p>
+
+            </p>
+          </div>
+
+          <div id="service">
+            <p>
+
+            </p>
+          </div>
+
+          <div id="contact">
+            <p>
+
+            </p>
           </div>
       </div>
-      </main>
-      
 
+      <video id="video" height="300" width="300">
+        <iframe src="https://www.youtube.com/watch?v=n_25Yo91Vec" type="video/mp4"></iframe>  
+      </video>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Email" required/>
+
+        <input type="submit" id="submit" value="Submit"/>
+      </form>
     </div>
+
+   
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
   </body>
 </html>

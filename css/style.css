@@ -1,5 +1,18 @@
-html, body {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  background-color: red; }
+
+@media all and(min-width:700px){
+    #header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+    }
+    
+    #header #image{
+        width: 10px;
+        height:10px;
+    }
+
+    #contact{
+        display: flex;
+    }
+}
